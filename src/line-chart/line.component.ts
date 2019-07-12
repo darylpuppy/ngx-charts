@@ -25,7 +25,7 @@ import { select } from 'd3-selection';
       [attr.d]="initialPath"
       [attr.fill]="fill"
       [attr.stroke]="stroke"
-      stroke-width="1.5px"
+      stroke-width="5px"
     />
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
